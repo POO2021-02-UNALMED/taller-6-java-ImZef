@@ -2,8 +2,10 @@ package vehiculos;
 
 import java.util.ArrayList;
 
+import java.util.List;
+
 public class Fabricante {
-	private static ArrayList<Fabricante> fabricantes;
+	private static List<Fabricante> fabricantes = new ArrayList<Fabricante> ();
 	int ventas = 0;
 	private String nombre;
 	Pais pais;
