@@ -12,7 +12,7 @@ public class Pais {
 		paises.add(this);
 	}
 	
-	public Pais paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		int c = 0;
 		Pais p = null;
 		
